@@ -6,6 +6,8 @@ axon-nats provides NATS adapters for axon services. Package name: `nats`.
 
 Import: `github.com/benaskins/axon-nats`
 
+**Import alias:** Since this package and `github.com/nats-io/nats.go` both use package name `nats`, consumers should import with an alias: `axonnats "github.com/benaskins/axon-nats"`.
+
 ## Build & Test
 
 ```bash
