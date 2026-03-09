@@ -1,6 +1,6 @@
 module github.com/benaskins/axon-nats
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/benaskins/axon v0.3.4
