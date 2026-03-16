@@ -2,7 +2,7 @@
 
 > Primitives · Part of the [lamina](https://github.com/benaskins/lamina-mono) workspace
 
-NATS adapters for axon services. `EventBus[T]` implements `sse.Publisher[T]` from axon, enabling horizontal scaling of SSE services by fanning out events across all instances connected to a NATS cluster.
+NATS adapters for axon services. `EventBus[T]` implements `sse.Publisher[T]` from axon, enabling cross-instance fan-out for SSE services connected to a NATS cluster.
 
 ## Getting started
 
