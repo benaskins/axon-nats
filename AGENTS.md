@@ -1,3 +1,8 @@
+---
+module: github.com/benaskins/axon-nats
+kind: library
+---
+
 # axon-nats
 
 ## Overview
