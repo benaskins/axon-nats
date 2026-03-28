@@ -1,0 +1,10 @@
+name: axon-nats
+purpose: NATS adapters for cross-instance fan-out
+use_when: Horizontal scaling, pub/sub
+deterministic: true
+snippet:
+  imports:
+    - path: github.com/benaskins/axon-nats
+      alias: nats
+  requires:
+    - github.com/benaskins/axon-nats
