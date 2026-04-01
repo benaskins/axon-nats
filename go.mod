@@ -3,7 +3,7 @@ module github.com/benaskins/axon-nats
 go 1.26.1
 
 require (
-	github.com/benaskins/axon v0.3.4
+	github.com/benaskins/axon-push v0.1.0
 	github.com/nats-io/nats.go v1.49.0
 )
 

@@ -1,5 +1,5 @@
-github.com/benaskins/axon v0.3.4 h1:IqmEDMA8150R1tQgiRKzY9RQc3dYsMXvwrWp5M+1P5A=
-github.com/benaskins/axon v0.3.4/go.mod h1:BoDoM3zT9nhUqCk1n8yfhTxQuNSrdvHjzqku0F66GkY=
+github.com/benaskins/axon-push v0.1.0 h1:NXoh1DOzpjt7XaHdH7tFQW/j1HOyu4mRTaaMnoct/XU=
+github.com/benaskins/axon-push v0.1.0/go.mod h1:SS2Cbaxw11pQ76HyRqwy6MhW3yJYGJOnipxTSoqD8h4=
 github.com/klauspost/compress v1.18.2 h1:iiPHWW0YrcFgpBYhsA6D1+fqHssJscY/Tm/y2Uqnapk=
 github.com/klauspost/compress v1.18.2/go.mod h1:R0h/fSBs8DE4ENlcrlib3PsXS61voFxhIs2DeRhCvJ4=
 github.com/nats-io/nats.go v1.49.0 h1:yh/WvY59gXqYpgl33ZI+XoVPKyut/IcEaqtsiuTJpoE=

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benaskins/axon/sse"
+	"github.com/benaskins/axon-push"
 	"github.com/nats-io/nats.go"
 )
 
@@ -14,8 +14,8 @@ type testEvent struct {
 	ID   string `json:"id"`
 }
 
-// Compile-time check: EventBus satisfies sse.Publisher.
-var _ sse.Publisher[testEvent] = (*EventBus[testEvent])(nil)
+// Compile-time check: EventBus satisfies push.Publisher.
+var _ push.Publisher[testEvent] = (*EventBus[testEvent])(nil)
 
 func natsConn(t *testing.T) *nats.Conn {
 	t.Helper()

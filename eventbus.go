@@ -12,7 +12,7 @@ import (
 // scaling of SSE services. Events published on any instance are delivered to
 // subscribers on all instances connected to the same NATS cluster.
 //
-// EventBus implements sse.Publisher[T].
+// EventBus implements push.Publisher[T].
 type EventBus[T any] struct {
 	conn    *nats.Conn
 	subject string
