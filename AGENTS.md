@@ -24,10 +24,10 @@ Tests require a running NATS server. Set `NATS_URL` or defaults to `nats://127.0
 
 ## Contents
 
-- **EventBus[T]** — NATS-backed pub/sub implementing `sse.Publisher[T]` from axon. Enables cross-instance fan-out for SSE services by distributing events across instances via a NATS cluster.
+- **EventBus[T]** — NATS-backed pub/sub implementing `push.Publisher[T]` from axon-push. Enables cross-instance fan-out for SSE services by distributing events across instances via a NATS cluster.
 - **WithSubject(subject)** — Option to set the NATS subject (default: "events").
 
 ## Dependencies
 
-- `github.com/benaskins/axon` — for `sse.Publisher[T]` interface
+- `github.com/benaskins/axon-push` — for `push.Publisher[T]` interface
 - `github.com/nats-io/nats.go` — NATS client
